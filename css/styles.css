@@ -7,6 +7,7 @@
     --color-background-button: #f4f4fd;
   --border-color: #e7e9fc ;
   --border-button-color:var(--border-color);
+  --color-white:#ffffff;
   }
   /* .studio{
    
@@ -223,10 +224,7 @@
     list-style: none;
   }
   /* fotter */
-  .foot_title {
-    background-color: var(--navy-blue);
-  }
-  
+ 
   .studio {
     color: var(--color-background-button);
     font-weight: 500;
@@ -451,8 +449,16 @@
   .description_section_four {
     text-align: center; 
   }
+
+  /* sction-five  */
+
+
   /* fotter */
-  .foot_title {
+  .foot {
+    display:flex;
+
+    background-color: var(--navy-blue);
+  
     padding: 100px 0;
   }
   
@@ -532,4 +538,87 @@
   
   /* svg stile */
  
+  .section_one {
+    background-color: var(--headers-color);
+  text-align: center;
+  max-width: 1440px;
+
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 188px 0;
+
+  }
+/* information  section_two */
+.title-list-information {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+list-style: none;
+}
+.strategy-list {
+ 
+  margin-bottom: 8px;
+}
+ 
+
+/* linki social */
+.personal {
+  display: flex;
+}
+ 
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  list-style: none;
+}
+
+
+
+/* fotttteeeerrrrrrrrrrrrrrr */
+.first-logo{
+  margin-right: 120px;
   
+}
+
+.foot-container {
+display: flex;
+
+}
+.socials-media-conteiner {
+  display: flex;
+  list-style: none;
+  justify-content:space-between ;
+  margin: 0;
+}
+.media-conteiner {
+  width: 208px;
+ 
+
+}
+
+
+.socials-media-label {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color-white);
+margin-bottom: 16px;
+}
+
+
+
+
