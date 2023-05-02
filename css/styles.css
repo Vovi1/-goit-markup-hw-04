@@ -566,7 +566,9 @@
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
+.icon {
+  fill: #2a2a2a;
+}
 .strategy-list {
  
   margin-bottom: 8px;
