@@ -568,23 +568,21 @@
  
 
 /* linki social */
-.social-list_item-link {
-  display: flex;
+.list-time{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px
+}
+.tagline{
+  text-align: center;
+  padding: 32px 0px;
+  
+}
+.socials-list {
+  display: flex; 
   justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color:var(--ocean) ;
-  }
-  .socials-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-  }
-
-
-
+  gap: 24px;
+}
 /* fotttteeeerrrrrrrrrrrrrrr */
 .first-logo{
   margin-right: 120px;
