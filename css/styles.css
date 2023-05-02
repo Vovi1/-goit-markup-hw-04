@@ -596,16 +596,19 @@ border-radius: 0px 0px 4px 4px
   align-items: center; 
   justify-content: center;
 }
-.social-list_item-link {
+.social-list_item-link:hover {
   background-color: #404bbf;
-  background-color: #404bbf;
+  
 
+}
+.social-list_item-link:focus {
+  background-color: #404bbf;
 }
 
 .wrap {
   fill: #f4f4fd ;
 
-  
+
 }
 /* fotttteeeerrrrrrrrrrrrrrr */
 .first-logo{
@@ -615,6 +618,7 @@ border-radius: 0px 0px 4px 4px
 
 .foot-container {
 display: flex;
+align-items: baseline;
 
 }
 .socials-media-conteiner {
@@ -622,7 +626,32 @@ display: flex;
   list-style: none;
   justify-content:space-between ;
   margin: 0;
+  gap: 16px;
 }
+.media-conteiner-wrap {
+  width: 40px;
+  height: 40px;
+}
+.social-media {
+  width: 100%; 
+  height: 100%;
+  background-color:#4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+.social-media:hover {
+  background-color: #31d0aa; 
+}
+.social-media:focus {
+  background-color: #31d0aa; 
+}
+.media {
+  fill:#f4f4fd;
+}
+
 .media-conteiner {
   width: 208px;
  
