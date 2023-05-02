@@ -555,13 +555,13 @@
 
   }
 /* information  section_two */
-.title-list-information-list{
+.title-list-inform{
   display: flex;
-  align-items: center;
-  justify-content: center; 
-  height: 112px;
+  align-items: center; 
+  justify-content: center;
+  height: 112px; 
   background-color: #f4f4fd;
-  border-radius: 4px; 
+  border-radius: 4px;
   margin-bottom: 8px;
 }
 
