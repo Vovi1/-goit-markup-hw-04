@@ -565,7 +565,10 @@
   margin-bottom: 8px;
 }
 
- 
+ .icons {
+  width="64px;
+  height="64px;
+ }
 
 /* linki social */
 .list-time{
