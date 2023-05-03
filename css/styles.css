@@ -583,9 +583,10 @@ border-radius: 0px 0px 4px 4px
   justify-content: center;
   gap: 24px;
 }
-.title {
+.socials-links {
   width: 40px;
-  height: 40px; 
+  height: 40px;
+   list-style: none;
 }
 .social-list_item-link {
   width: 100%;
@@ -628,10 +629,7 @@ align-items: baseline;
   margin: 0;
   gap: 16px;
 }
-.media-conteiner-wrap {
-  width: 40px;
-  height: 40px;
-}
+
 .social-media {
   width: 100%; 
   height: 100%;
@@ -639,7 +637,9 @@ align-items: baseline;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  width: 40px;
+  height: 40px; 
 
 }
 .social-media:hover {
